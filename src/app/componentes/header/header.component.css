@@ -1,0 +1,53 @@
+
+header {
+    width: 100%;
+    height: 48px;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    color: rgb(32, 32, 32);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flexbox;
+    flex-direction: row;
+    text-decoration: none;
+    list-style: none;
+    gap: 32px;
+    font-size: 16px;
+}
+
+li {
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+
+li:hover{
+    color: bisque;
+    transform: scale(1.15);
+}
+
+#botao-login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 64px;
+    width: 108px;
+    height: 48px;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+
+#botao-login:hover {
+    color: bisque;
+    transform: scale(1.05);
+    border: 2px solid bisque;
+}
