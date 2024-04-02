@@ -1,3 +1,7 @@
+ :root {
+    --background:#7F53DF;
+    --corletra: #1A1E1C;
+ }
 
 header {
     width: 100%;
@@ -13,13 +17,33 @@ header {
     justify-content: space-between;
 }
 
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2px;
+}
+
+.logo > p {
+    font-weight: 700;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+#logo {
+width: 50px;
+margin: 5px 5px;
+}
+
 ul {
-    display: flexbox;
+    display: flex;
     flex-direction: row;
     text-decoration: none;
     list-style: none;
+    margin-left: 200px;
     gap: 32px;
     font-size: 16px;
+    font-weight: 500;
 }
 
 li {
@@ -36,10 +60,12 @@ li:hover{
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 2px solid black;
+    border: 2px solid rgb(32, 32, 32);
     border-radius: 64px;
+    margin: 5px 5px auto;
     width: 108px;
     height: 48px;
+    color: rgb(32, 32, 32);
     font-size: 18px;
     font-weight: 700;
     cursor: pointer;
@@ -48,6 +74,5 @@ li:hover{
 
 #botao-login:hover {
     color: bisque;
-    transform: scale(1.05);
     border: 2px solid bisque;
 }
