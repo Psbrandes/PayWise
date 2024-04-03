@@ -33,7 +33,7 @@
         transform: translateX(0) ;
     }
     to {
-        transform: translateX(-175%) ;
+        transform: translateX(-100%) ;
     }
 }
 

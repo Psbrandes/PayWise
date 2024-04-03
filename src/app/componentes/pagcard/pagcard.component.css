@@ -1,0 +1,42 @@
+.cardpage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 20px;
+}
+
+.sessaotexto {
+    max-width: 550px;
+    flex-grow: 0;
+    margin-right: 30px;
+}
+
+.sessaotexto > h3 {
+    color: #1A1E1C;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.sessaotexto > p {
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+
+
+button {
+    width: 200px;
+    min-height: 56px;
+    border: none;
+    border-radius: 64px;
+    font-weight: 600;
+    text-align: center;
+}
+
+button > i {
+    font-size: 25px;
+}
+
+
+.imgcard {
+    max-width: 550px;
+}
