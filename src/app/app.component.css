@@ -1,0 +1,9 @@
+:root {
+    --background:#7F53DF;
+    --corletra: #1A1E1C;
+ }
+
+
+* {
+    background-color: var(--background);
+}

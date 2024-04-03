@@ -2,7 +2,8 @@
     display: flex;
     margin-top: 50px;
     gap: 40px;
-    justify-content: space-between;
+    justify-content: space-around;
+    overflow: hidden;
 }
 
 .texto-banner {

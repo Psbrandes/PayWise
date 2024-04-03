@@ -1,0 +1,44 @@
+.features {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #1A1E1C;
+}
+
+.features > h1 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.titulo {
+    color: #1A1E1C;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 20px;
+}
+
+.box {
+    display: flex;
+    gap: 24px;
+    max-width: 392px;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
+
+.icone {
+    width: 80px;
+    height: 64px;
+    border-radius: 24px;
+    padding: 18px;
+    font-size: 22px;
+    background-color: #FFFFFF;
+}
+
+.texto > h4 {
+    font-size: 20px;
+}
+
+.texto > p {
+    color: #FFFFFF;
+}

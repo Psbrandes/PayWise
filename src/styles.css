@@ -4,12 +4,8 @@
  }
 
 * {
-    background-color: var(--background);
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
     font-family: "M PLUS 1", 'Lucida Sans', Arial, sans-serif;
-}
-
-body {
-    box-sizing: border-box;
-    margin: 0;
 }

@@ -7,6 +7,7 @@
     height: 200px;
     background-color: #ffffff;
     border-radius: 32px;
+    margin: 0 20px;
 }
 
 .info-about {
@@ -16,7 +17,6 @@
     justify-content: center;
     align-items: center;
 
-    
     h3{
         font-size: 48px;
         line-height: 56px;
@@ -25,6 +25,7 @@
         background-color: #ffffff;
         margin: 0;
     };
+    
     p{
         color:#2BB32A;
         font-size: 16px;

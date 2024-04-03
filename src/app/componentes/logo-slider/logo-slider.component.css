@@ -1,0 +1,40 @@
+.logos {
+    overflow: hidden;   
+}
+
+.slider {
+    min-width: 100%;
+    height: 132px;
+    justify-content: space-around;
+    align-items: center;
+    white-space: nowrap;
+    padding: 60px 0 ;
+    display: flex;
+    animation: 20s slide linear infinite;
+
+}
+
+.logos-slide {
+    display: inline-block;
+}
+
+.slider:hover {  
+    animation-play-state: paused;
+}
+
+.logos-slide img {
+    height: 50px;
+    margin: 0 40px;
+}
+
+
+@keyframes slide {
+    from {
+        transform: translateX(0) ;
+    }
+    to {
+        transform: translateX(-175%) ;
+    }
+}
+
+
