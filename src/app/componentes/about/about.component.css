@@ -1,0 +1,34 @@
+.about {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    min-width: 100vh;
+    height: 200px;
+    background-color: #ffffff;
+    border-radius: 32px;
+}
+
+.info-about {
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    
+    h3{
+        font-size: 48px;
+        line-height: 56px;
+        font-weight: 700;
+        color: #1A1E1C ;
+        background-color: #ffffff;
+        margin: 0;
+    };
+    p{
+        color:#2BB32A;
+        font-size: 16px;
+        background-color: #ffffff;
+        margin-top: 5px;
+    }
+}
